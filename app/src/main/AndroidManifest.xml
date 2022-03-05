@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="amllc.com.lifelinedonation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LifeLineDonation">
+        <activity
+            android:name=".CheckHospital"
+            android:exported="false" />
+        <activity
+            android:name=".SingleAppointmentView"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".AddUserAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".SingleUserView"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUsers"
+            android:exported="false" />
+        <activity
+            android:name=".UserViewAppointments"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmationApplication"
+            android:exported="false" />
+        <activity
+            android:name=".DonationTimeAndCenter"
+            android:exported="false" />
+        <activity
+            android:name=".DonationEligibility"
+            android:exported="false" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Screens"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

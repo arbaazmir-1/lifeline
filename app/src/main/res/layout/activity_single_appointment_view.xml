@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SingleAppointmentView">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/backbtn"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Edit Or View User"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textstyleOne"
+            android:text="Name:"
+            android:id="@+id/single_item_userName"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textstyleOne"
+            android:text="IC Number:"
+            android:id="@+id/single_item_userNid"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/single_item_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textstyleOne"
+            android:text="Gender:"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/single_item_bloodgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textstyleOne"
+            android:text="Blood Group:"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/single_item_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textstyleOne"
+            android:text="Center:"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/single_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textstyleOne"
+            android:text="Date:"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/single_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/textstyleOne"
+            android:text="Time:"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

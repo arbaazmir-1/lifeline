@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="editTextStyle">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@drawable/edit_text_design</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="textstyleOne">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+</resources>

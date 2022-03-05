@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonationTimeAndCenter">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/textstyleOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="Select Center and Dates" />
+
+        <Spinner
+            android:id="@+id/donationcenter"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/inputbp"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/textstyleOne"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Dates" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioGroup
+                android:id="@+id/dateRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/elevenSep"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    android:background="@drawable/inputselector"
+                    android:button="@android:color/transparent"
+                    android:checked="false"
+                    android:text="11 Sep"
+                    android:textAlignment="center" />
+
+                <RadioButton
+                    android:id="@+id/twelveSep"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    android:background="@drawable/inputselector"
+                    android:button="@android:color/transparent"
+                    android:checked="false"
+                    android:text="12 Sep"
+                    android:textAlignment="center" />
+
+                <RadioButton
+                    android:id="@+id/thirteenSep"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    android:background="@drawable/inputselector"
+                    android:button="@android:color/transparent"
+                    android:checked="false"
+                    android:text="23 Nov"
+                    android:textAlignment="center" />
+
+                <RadioButton
+                    android:id="@+id/fourteenSep"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    android:background="@drawable/inputselector"
+                    android:button="@android:color/transparent"
+                    android:checked="false"
+                    android:text="24 Nov"
+                    android:textAlignment="center" />
+
+
+            </RadioGroup>
+        </HorizontalScrollView>
+
+        <TextView
+            style="@style/textstyleOne"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Time" />
+
+        <RadioGroup
+            android:id="@+id/timeRadiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/nineAM"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/inputselector"
+                android:button="@android:color/transparent"
+                android:checked="false"
+                android:text="9 am"
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:id="@+id/tenAm"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/inputselector"
+                android:button="@android:color/transparent"
+                android:checked="false"
+                android:text="10 am"
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:id="@+id/elevenAM"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/inputselector"
+                android:button="@android:color/transparent"
+                android:checked="false"
+                android:text="11 am"
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:id="@+id/twelvePM"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/inputselector"
+                android:button="@android:color/transparent"
+                android:checked="false"
+                android:text="12 am"
+                android:textAlignment="center" />
+
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="317dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/btn"
+            android:text="Next"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

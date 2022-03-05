@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">LifeLine Donation</string>
+    <string-array name="bloodGroupTypes">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="genderTypes">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="isAdminString">
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="yes">Yes</string>
+    <string name="no">NO</string>
+    <string name="nearest_hospitals">Nearest Hospitals</string>
+    <string name="check_center">Check Center</string>
+    <string name="check_nhospital_or_ncenter">Check \nHospital Or\nCenter</string>
+    <string name="cyberjaya">CyberJaya</string>
+    <string name="persiaran_cyber_point_n_selatan_cyber_8_63000_cyberjaya_selangor">Persiaran Cyber Point\n Selatan, Cyber 8, 63000 Cyberjaya, Selangor</string>
+    <string name="putrajaya">Putrajaya</string>
+    <string name="jalan_p9_presint_7_n_62250_putrajaya_wilayah_persekutuan_putrajaya">Jalan P9, Presint 7,\n 62250 Putrajaya, Wilayah Persekutuan Putrajaya</string>
+    <string name="kuala_lumpur">Kuala Lumpur</string>
+    <string name="jalan_pahang_50586_kuala_lumpur_wilayah_persekutuan_kuala_lumpur">Jalan Pahang, 50586 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</string>
+    <string name="damansara">Damansara</string>
+    <string name="lot_2_jalan_lapangan_terbang_subang_seksyen_u2_40150_shah_alam_selangor">Lot 2, Jalan Lapangan Terbang Subang, Seksyen U2, 40150 Shah Alam, Selangor</string>
+    <string name="pt_13717_jalan_bbn_2_1_n_bandar_baru_nilai_n_71800_nilai_negeri_sembilan">PT 13717 Jalan BBN 2/1,\n Bandar Baru Nilai,\n 71800 Nilai, Negeri Sembilan</string>
+    <string name="nilai">Nilai</string>
+</resources>
